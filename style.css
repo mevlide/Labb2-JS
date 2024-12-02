@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
+
+body {
+  font-family: "Oswald", sans-serif;
+  background-color: black;
+}
+.containers {
+  width: 69% !important;
+}
+.exxen-spor {
+  font-size: 1.2rem;
+  background-color: black;
+  border: none;
+  padding: 10px 30px;
+}
+.uye-giris {
+  font-size: 1.2rem;
+  padding: 10px 30px;
+  border: 1px solid black;
+}
+.dropdown {
+  font-size: 1.2rem;
+}
+
+/* Üye ol */
+.uye-ol {
+  background-color: rgb(22, 22, 22);
+}
+.kayit {
+  padding: 30px 0;
+}
+
+.kayit input {
+  width: 90%;
+  padding: 10px 20px;
+  /* outline-color: yellow; */
+}
+.kayit input:focus {
+  outline: 2px solid yellow;
+}
+.kayit button {
+  width: 90%;
+  padding: 10px 20px;
+}
+
+/* cardlar */
+.card {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+/* Ekranlar ve iconlar */
+.ekranlar {
+  width: 90%;
+  margin: auto;
+}
+.resimler {
+  width: 100%;
+  justify-content: center;
+}
+.resimler img {
+  width: 163px;
+  height: 43px;
+  margin: 5px;
+}
+.fa-brands {
+  background-color: white;
+  color: black;
+  font-size: 30px;
+  margin: 5px;
+  margin-top: 30px;
+  padding: 3px;
+}
+
+.son {
+  background-color: rgb(22, 22, 22);
+  padding: 10px;
+}
+.navbar-nav .nav-item .nav-link {
+  float: left;
+}
+
+/* Sign In Page */
+#signinpage {
+  background-color: lightgray;
+  width: 25%;
+  margin-left: 30%;
+  padding: 20px;
+  margin-top: 10px;
+}
+#signin {
+  background-color: green;
+  border: none;
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
+
+.buton {
+  margin-left: 40%;
+}
+
+body {
+  background-color: rgb(23, 66, 83);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url(images/background\ image.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  text-align: center;
+  border: 1px solid gray;
+  background-color: rgb(23, 95, 99);
+
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px darkgray;
+  height: 550px;
+  width: 400px;
+}
+h1 {
+  color: aliceblue;
+}
+label {
+  color: aliceblue;
+}
+.top-section h2 {
+  margin: auto;
+  font-family: "Roboto Slab", serif;
+  font-size: 25px;
+}
+.top-section {
+  padding: 10px;
+  margin: auto 50px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 10px;
+}
+.top-section input {
+  width: 100%;
+  height: 30px;
+  font-size: medium;
+  border-radius: 4px;
+}
+.middle-section {
+  padding: 10px;
+  margin: auto 50px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 10px;
+}
+.middle-section input {
+  width: 100%;
+  height: 30px;
+  font-size: medium;
+  border-radius: 4px;
+}
+.bottom-section {
+  padding: 10px;
+  margin: auto 50px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 10px;
+}
+.bottom-section input {
+  width: 100%;
+  height: 30px;
+  font-size: medium;
+  border-radius: 4px;
+}
+.bottom-section_2 {
+  padding: 10px;
+  margin: auto 50px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 10px;
+}
+.bottom-section_2 input {
+  width: 100%;
+  height: 30px;
+  font-size: medium;
+  border-radius: 4px;
+}
+#signup {
+  background-color: green;
+  border: none;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+  width: 120px;
+  margin-top: 1rem;
+}
