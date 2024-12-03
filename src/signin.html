@@ -9,14 +9,26 @@
     <title>Document</title>
   </head>
   <body>
-    <div id="signinpage">
+    <div class="signip-container">
+      <h1>Sign In</h1>
+      <div class="top-section">
+        <label for="user name">User Name</label>
+        <input type="text" id="username" required />
+      </div>
+      <div class="bottom-section">
+        <label for="password">Password</label>
+        <input type="password" id="password" required />
+      </div>
+      <button id="signin">Sign In</button>
+    </div>
+    <!--<div id="signinpage">
       <h3>Sign In</h3>
       <label for="username">User name</label><br />
       <input type="text" id="username" /><br /><br />
       <label for="password">Password</label><br />
       <input type="password" id="password" /><br /><br />
       <button id="signin">Sign In</button>
-    </div>
+    </div>-->
 
     <script>
       document.getElementById("signin").onclick = function () {
