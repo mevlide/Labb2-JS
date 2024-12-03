@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Map JSON to HTML</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-pzjw8f+ua7Kw1TIq0o6Jz7Pq4K00f4y2p5rQQ1l65bi58SfhjKjvnb1OG0hRFDzE"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container mt-4">
+      <div class="row row-cols-1 row-cols-md-4 g-4 mt-4" id="cards-container">
+        <!-- Cards will be injected here -->
+      </div>
+    </div>
+
+    <!-- Bootstrap Bundle JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Your custom JavaScript -->
+    <script>
+      const jsonData = {
+        cards: [
+          {
+            image: "img/card1.webp",
+            title: "Survivor TV'de Yok",
+          },
+          {
+            image: "img/card2.webp",
+            title: "Şampiyonlar Ligi",
+          },
+          {
+            image: "img/card3.webp",
+            title: "Avrupa Ligi",
+          },
+          {
+            image: "img/card4.webp",
+            title: "Avrupa Konferans Ligi",
+          },
+        ],
+      };
+
+      // Function to map JSON to HTML
+      function mapJsonToHtml(data) {
+        const container = document.getElementById("cards-container");
+
+        // Loop through each card in the JSON data
+        data.cards.forEach((card) => {
+          // Create a new div for each card
+          const cardElement = document.createElement("div");
+          cardElement.classList.add("col");
+
+          // Create the card structure
+          cardElement.innerHTML = `
+          <div class="card">
+            <img src="${card.image}" class="card-img-top" alt="" />
+            <div class="card-body">
+              <h5 class="card-title">${card.title}</h5>
+            </div>
+          </div>
+        `;
+
+          // Append the card to the container
+          container.appendChild(cardElement);
+        });
+      }
+
+      // Call the function to render the cards
+      mapJsonToHtml(jsonData);
+    </script>
+  </body>
+</html>
