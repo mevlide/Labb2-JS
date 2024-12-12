@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="index.html" />
+    <link rel="stylesheet" href="index.js" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-brand">Film Staden</div>
+      <button class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="navbar-links" id="navbar-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="signin.html">Sign In</a></li>
+        <li><a href="signup.html">Sign Up</a></li>
+      </ul>
+    </nav>
+    <div class="signin_page">
+      <div class="signin-container">
+        <h1>Sign In</h1>
+        <div class="top-section">
+          <label for="user name">User Name</label>
+          <input type="text" id="username" required />
+        </div>
+        <div class="bottom-section">
+          <label for="password">Password</label>
+          <input type="password" id="password" required />
+        </div>
+        <button id="signin">Sign In</button>
+      </div>
+    </div>
+
+    <script>
+      document.getElementById("signin").onclick = function () {
+        name = document.getElementById("username").value;
+        pass = document.getElementById("password").value;
+
+        if (name == "mevlide@gmail.com" && pass == "1234") {
+          alert("Login successful");
+        } else {
+          alert("Wrong account or password");
+        }
+      };
+    </script>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "labb2-js",
+  "version": "1.0.0",
+  "description": "javascript slut projekt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mevlide/Labb2-JS.git"
+  },
+  "author": "Maowulidan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mevlide/Labb2-JS/issues"
+  },
+  "homepage": "https://github.com/mevlide/Labb2-JS#readme"
+}

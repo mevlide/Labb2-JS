@@ -1,0 +1,52 @@
+{
+  "cards": [
+    {
+      "image": "img/card1.webp",
+      "title": "Survivor TV'de Yok"
+    },
+    {
+      "image": "img/card2.webp",
+      "title": "Şampiyonlar Ligi"
+    },
+    {
+      "image": "img/card3.webp",
+      "title": "Avrupa Ligi"
+    },
+    {
+      "image": "img/card4.webp",
+      "title": "Avrupa Konferans Ligi"
+    },
+    {
+      "image": "img/card5.webp",
+      "title": "Aşk Kumardır"
+    },
+    {
+      "image": "img/card6.webp",
+      "title": "Leyla ile Mecnun"
+    },
+    {
+      "image": "img/card7.webp",
+      "title": "Gibi"
+    },
+    {
+      "image": "img/card8.webp",
+      "title": "Arabeskin Aşık Kadınları"
+    },
+    {
+      "image": "img/card5.webp",
+      "title": "Aşk Kumardır"
+    },
+    {
+      "image": "img/card6.webp",
+      "title": "Leyla ile Mecnun"
+    },
+    {
+      "image": "img/card7.webp",
+      "title": "Gibi"
+    },
+    {
+      "image": "img/card8.webp",
+      "title": "Arabeskin Aşık Kadınları"
+    }
+  ]
+}
